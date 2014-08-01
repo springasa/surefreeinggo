@@ -1,0 +1,12 @@
+{application, surefreeinggo,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { surefreeinggo_app, []}},
+  {env, []}
+ ]}.
